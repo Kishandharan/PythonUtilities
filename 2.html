@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Read more</title>
+	<style>
+		:root{
+			--bg: #2d2d2e;
+		}
+
+		.content{
+			display: inline-block;
+		}
+
+		body{
+			background: var(--bg);
+		}
+
+		.content{
+			border: 2px solid white;
+			padding: 6px;
+			font-size: large;
+			color: white;
+		}
+
+		.btn{
+			text-decoration: underline;
+			color: #fca103;
+			cursor: pointer;
+		}
+
+		.additional{
+			display: none;
+		}
+
+		.content:hover .additional{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		This is some content.
+		<span class="btn">Read more</span>
+		<div class="additional">
+			This is some more content
+		</div>
+	</div>
+</body>
+</html>
