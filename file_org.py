@@ -1,7 +1,7 @@
 '''
 In order to use this utility, make sure that python is installed.
 If not visit https://www.python.org/downloads/.
-After downloading this file, open cmd in the place where this file is downloaded. Then in the opened cmd, type file_organizer.py path_to_be_organized extension_to_be_filtered.
+After downloading this file, open cmd in the place where this file is downloaded. Then in the opened cmd, type file_org.py path_to_be_organized extension_to_be_filtered.
 
 '''
 import os
